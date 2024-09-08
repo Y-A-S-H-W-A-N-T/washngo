@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "wash",
+    "slug": "wash",
+    "version": "1.0.0",
+    "scheme": "wash",
+    "orientation": "portrait",
+    "icon": "./assets/images/washngo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/mainscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "white"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/mainscreen.png",
+        "backgroundColor": "white"
+      },
+      "package": "com.yashwant.wash"
+    },
+    "web": {
+      "favicon": "./assets/images/washngo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "67539091-9f90-405b-a099-e7707e1f94dc"
+      }
+    }
+  }
+}
